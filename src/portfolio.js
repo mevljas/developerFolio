@@ -216,7 +216,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Telekom Slovenije",
-      companylogo: require("./assets/images/telekom.jpg"),
+      companylogo: require("./assets/images/telekomSlovenije.png"),
       date: "May 2021 – Present",
       desc: "Development of a cross-platform Flutter NEO mobile application.",
       descBullets: [
@@ -249,7 +249,7 @@ const bigProjects = {
   subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/telekom.jpg"),
+      image: require("./assets/images/telekomSlovenije.png"),
       projectName: "NEO Mobile application",
       projectDesc: "Cross-platform NEO mobile application built with Flutter.",
       footerLink: [
