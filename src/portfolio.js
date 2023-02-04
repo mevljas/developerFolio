@@ -24,7 +24,7 @@ const greeting = {
   username: "Sebastjan mevlja",
   title: "Hi all, I'm Sebastjan",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Flutter / Nodejs / Dart / and some other cool libraries and frameworks."
+    "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with Flutter / JavaScript / Nodejs / Django / and some other cool libraries and frameworks."
   ),
   resumeLink: MyPDF, // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -130,18 +130,14 @@ const educationInfo = {
       desc: "First cycle professional study programme.",
       descBullets: [
         "Programing languages: Java, Javascript, Python, PHP, C & R",
-        "HTML5 & CSS3",
-        "MySQL",
-        "PostgreSQL",
+        "SQL",
         "Web development",
         "Android app development",
         "ARM microcontroller development",
         "Linux",
         "Vagrant",
-        "Docker",
         "Kubernetes",
         "WebGL",
-        "GTK",
         "Software testing & quality",
         "User interfaces",
         "Artificial intelligence",
@@ -219,28 +215,21 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Telekom Slovenije",
+      companylogo: require("./assets/images/telekom.jpg"),
+      date: "May 2021 – Present",
+      desc: "Development of a cross-platform Flutter NEO mobile application.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Mobile Flutter Development",
+        "Backend Python & Node.js Development"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Geological Survey of Slovenia",
+      companylogo: require("./assets/images/geozs.png"),
+      date: "Aug 2020 – Oct 2020",
+      desc: "Development a content management system for the analysis of harvested data using Django, PostgreSQL, JavaScript, and HTML5/CSS."
     }
   ]
 };
@@ -257,28 +246,29 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/telekom.jpg"),
+      projectName: "NEO Mobile application",
+      projectDesc: "Cross-platform NEO mobile application built with Flutter.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://neo.io/info"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/geozs.png"),
+      projectName: "CMS for harvested data",
+      projectDesc:
+        "Content management system for the analysis of harvested data.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.geo-zs.si/index.php/en/"
         }
       ]
     }
