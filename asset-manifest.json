@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.beab7e3f.js",
+    "main.js": "/static/js/main.c3b32833.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.10edff78.chunk.js": "/static/js/64.10edff78.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
     "static/js/769.08557987.chunk.js": "/static/js/769.08557987.chunk.js",
     "static/media/Resume.pdf": "/static/media/Resume.bbf1004fa57a1b5a2cb1.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/telekomSlovenije.png": "/static/media/telekomSlovenije.078bb4e8c6e1b7c7e94d.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/geozs.png": "/static/media/geozs.5628f6c25cf85c7b3638.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/telekom.jpg": "/static/media/telekom.be4c97fe2c1ef5a17436.jpg",
     "static/media/fri.png": "/static/media/fri.b740d1ade469ddfc1b0d.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -23,7 +23,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.beab7e3f.js.map": "/static/js/main.beab7e3f.js.map",
+    "main.c3b32833.js.map": "/static/js/main.c3b32833.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.10edff78.chunk.js.map": "/static/js/64.10edff78.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.73ffea83.css",
-    "static/js/main.beab7e3f.js"
+    "static/js/main.c3b32833.js"
   ]
 }
