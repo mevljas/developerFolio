@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.c3b32833.js",
+    "main.js": "/static/js/main.97c7369b.js",
     "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
     "static/js/64.10edff78.chunk.js": "/static/js/64.10edff78.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
     "static/js/769.08557987.chunk.js": "/static/js/769.08557987.chunk.js",
-    "static/media/Resume.pdf": "/static/media/Resume.bbf1004fa57a1b5a2cb1.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.08308089f215e805768b.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/telekomSlovenije.png": "/static/media/telekomSlovenije.078bb4e8c6e1b7c7e94d.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -23,7 +23,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.c3b32833.js.map": "/static/js/main.c3b32833.js.map",
+    "main.97c7369b.js.map": "/static/js/main.97c7369b.js.map",
     "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
     "64.10edff78.chunk.js.map": "/static/js/64.10edff78.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.73ffea83.css",
-    "static/js/main.c3b32833.js"
+    "static/js/main.97c7369b.js"
   ]
 }
