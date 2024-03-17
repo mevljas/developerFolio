@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.97c7369b.js",
-    "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
-    "static/js/64.10edff78.chunk.js": "/static/js/64.10edff78.chunk.js",
-    "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
-    "static/js/769.08557987.chunk.js": "/static/js/769.08557987.chunk.js",
+    "main.css": "/static/css/main.e47f16ed.css",
+    "main.js": "/static/js/main.791f085f.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.bbe099a9.chunk.js": "/static/js/487.bbe099a9.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.baec7a7b.chunk.js": "/static/js/990.baec7a7b.chunk.js",
     "static/media/Resume.pdf": "/static/media/Resume.08308089f215e805768b.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/telekomSlovenije.png": "/static/media/telekomSlovenije.078bb4e8c6e1b7c7e94d.png",
@@ -22,15 +22,15 @@
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.97c7369b.js.map": "/static/js/main.97c7369b.js.map",
-    "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
-    "64.10edff78.chunk.js.map": "/static/js/64.10edff78.chunk.js.map",
-    "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
-    "769.08557987.chunk.js.map": "/static/js/769.08557987.chunk.js.map"
+    "main.e47f16ed.css.map": "/static/css/main.e47f16ed.css.map",
+    "main.791f085f.js.map": "/static/js/main.791f085f.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.bbe099a9.chunk.js.map": "/static/js/487.bbe099a9.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.baec7a7b.chunk.js.map": "/static/js/990.baec7a7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ffea83.css",
-    "static/js/main.97c7369b.js"
+    "static/css/main.e47f16ed.css",
+    "static/js/main.791f085f.js"
   ]
 }
