@@ -47,11 +47,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "I am an ambitious and energetic student, who commits a lot of his time, learning new upcoming technologies. I have studied in numerous fields of coding including web and mobile development, microcontroller hardware, and game development. As a high school student, I was introduced to mobile application development which grabbed my interest instantly and I've been dedicated to exploring this vast field ever since. In my free time, I like to learn new things, read books and travel. Besides studying for the university, I'm learning to develop Web and Mobile applications.",
+    "I'm a Software Engineer with a Bachelor's degree in Computer Science and a Master's degree in Multimedia. I'm an ambitious and energetic Full-Stack Developer, who commits a lot of his time, learning new upcoming technologies. I have studied in numerous fields of coding including Web and Mobile development, microcontroller hardware, and Game development. These days I mostly work on the Backend, Web and Mobile applications.",
   skills: [
     emoji("⚡ Develop Web and Mobile applications"),
     emoji("⚡ Backend development"),
-    emoji("⚡ Software testing & quality")
+    emoji("⚡ DevOps")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
