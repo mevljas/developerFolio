@@ -23,9 +23,7 @@ const illustration = {
 const greeting = {
   username: "Sebastjan mevlja",
   title: "Hi all, I'm Sebastjan",
-  subTitle: emoji(
-    "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with Flutter / JavaScript / Nodejs / Django / and some other cool libraries and frameworks."
-  ),
+  subTitle: emoji("A passionate Software Engineer from Slovenia 🚀."),
   resumeLink: MyPDF, // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -49,9 +47,10 @@ const skillsSection = {
   subTitle:
     "I'm a Software Engineer with a Bachelor's degree in Computer Science and a Master's degree in Multimedia. I'm an ambitious and energetic Full-Stack Developer, who commits a lot of his time, learning new upcoming technologies. I have studied in numerous fields of coding including Web and Mobile development, microcontroller hardware, and Game development. These days I mostly work on the Backend, Web and Mobile applications.",
   skills: [
-    emoji("⚡ Develop Web and Mobile applications"),
-    emoji("⚡ Backend development"),
-    emoji("⚡ DevOps")
+    emoji("⚡ Web Development"),
+    emoji("⚡ Backend Development"),
+    emoji("⚡ Mobile Development"),
+    emoji("⚡ DevOps and Cloud Native Deployment")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -119,62 +118,22 @@ const educationInfo = {
       schoolName: "Faculty of Computer and Information Science Ljubljana",
       logo: require("./assets/images/fri.png"),
       subHeader: "Master's degree, Multimedia",
-      duration: "October 2022 - Present",
+      duration: "October 2022 - September 2025",
       desc: "Second-cycle interdisciplinary Master's study programme."
     },
     {
       schoolName: "Faculty of Computer and Information Science Ljubljana",
       logo: require("./assets/images/fri.png"),
       subHeader: "Bachelor's degree, Computer and Information Sciences",
-      duration: "October 2018 – September 2022",
-      desc: "First cycle professional study programme.",
-      descBullets: [
-        "Programing languages: Java, Javascript, Python, PHP, C & R",
-        "SQL",
-        "Web development",
-        "Android app development",
-        "ARM microcontroller development",
-        "Linux",
-        "Vagrant",
-        "Kubernetes",
-        "WebGL",
-        "Software testing & quality",
-        "User interfaces",
-        "Artificial intelligence",
-        "Algorithms and data structures",
-        "Computer communications",
-        "Operating systems",
-        "Graphic design",
-        "Communication protocols and network security",
-        "Computer graphics",
-        "Statistics",
-        "System software",
-        "Software engineering",
-        "Information systems",
-        "Game technology and virtual reality",
-        "Electronic and mobile business"
-      ]
+      duration: "October 2018 - September 2022",
+      desc: "First cycle professional study programme."
     },
     {
       schoolName: "Electrotechnical and Computer School Nova Gorica",
       logo: require("./assets/images/ers.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2014 – June 2018",
-      desc: "Technical Secondary School For Computer Science.",
-      descBullets: [
-        "Programing languages: Java, Javascript & PHP",
-        "HTML & CSS",
-        "Oracle SQL & MySQL",
-        "Oracle Forms",
-        "Web development",
-        "Android app development",
-        "Hardware & Software management",
-        "Motorola microcontroller development",
-        "Linux & Windows server management",
-        "Powershell",
-        "Computer communications",
-        "Electrical knowledge"
-      ]
+      duration: "September 2014 - June 2018",
+      desc: "Technical Secondary School For Computer Science."
     }
   ]
 };
@@ -185,15 +144,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Flutter", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Node.js", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Flutter", //Insert stack or technology you have experience in
+      Stack: "Nuxt.js", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Nest.js", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "JavaScript", //Insert stack or technology you have experience in
+      Stack: "Vue.js", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
@@ -201,8 +168,8 @@ const techStack = {
       progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Vue.js", //Insert stack or technology you have experience in
-      progressPercentage: "50%" //Insert relative proficiency in percentage
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -214,18 +181,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Full-Stack Software Engineer",
       company: "Telekom Slovenije",
       companylogo: require("./assets/images/telekomSlovenije.png"),
       date: "May 2021 – Present",
-      desc: "Development of a cross-platform Flutter NEO mobile application.",
+      desc: "Development of various NEO applications.",
       descBullets: [
         "Mobile Flutter Development",
-        "Backend Python & Node.js Development"
+        "Web Frontend Development with Vue.js / Nuxt.js",
+        "Backend Development with Node.js & Python",
+        "DevOps using GitLab CI/CD and OpenShift Deployment"
       ]
     },
     {
-      role: "Software Engineer",
+      role: "Software Developer",
       company: "Geological Survey of Slovenia",
       companylogo: require("./assets/images/geozs.png"),
       date: "Aug 2020 – Oct 2020",
@@ -250,12 +219,24 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/telekomSlovenije.png"),
-      projectName: "NEO Mobile application",
-      projectDesc: "Cross-platform NEO mobile application built with Flutter.",
+      projectName: "NEO Multimedia platform",
+      projectDesc: "NEO Web, Mobile and Smart TV applications.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://neo.io/info"
+          name: "NEO Web application",
+          url: "https://neo.io"
+        },
+        {
+          name: "NEO iOS application",
+          url: "https://apps.apple.com/us/app/neo-mobile-app/id449603780"
+        },
+        {
+          name: "NEO Android application",
+          url: "https://play.google.com/store/apps/details?id=si.titan.android&hl=en"
+        },
+        {
+          name: "NEO Smart TV application",
+          url: "https://www.telekom.si/pomoc/neo/uporaba-neo-tv-lite/"
         }
         //  you can add extra buttons here.
       ]
