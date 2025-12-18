@@ -220,7 +220,7 @@ const bigProjects = {
     {
       image: require("./assets/images/telekomSlovenije.png"),
       projectName: "NEO Multimedia platform",
-      projectDesc: "NEO Web, Mobile and Smart TV applications.",
+      projectDesc: "NEO applications developed for Telekom Slovenije, d.d.",
       footerLink: [
         {
           name: "NEO Web application",
