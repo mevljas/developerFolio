@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eb82a92c.css",
-    "main.js": "/portfolio/static/js/main.288716a0.js",
+    "main.js": "/portfolio/static/js/main.52a4738b.js",
     "static/css/487.bb36206c.chunk.css": "/portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.bbe099a9.chunk.js": "/portfolio/static/js/487.bbe099a9.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/portfolio/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.baec7a7b.chunk.js": "/portfolio/static/js/990.baec7a7b.chunk.js",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.9d4d496059ccd71c0e36.pdf",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.40fa910bf8ead183d2bf.pdf",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/telekomSlovenije.png": "/portfolio/static/media/telekomSlovenije.078bb4e8c6e1b7c7e94d.png",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -23,7 +23,7 @@
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.eb82a92c.css.map": "/portfolio/static/css/main.eb82a92c.css.map",
-    "main.288716a0.js.map": "/portfolio/static/js/main.288716a0.js.map",
+    "main.52a4738b.js.map": "/portfolio/static/js/main.52a4738b.js.map",
     "487.bb36206c.chunk.css.map": "/portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.bbe099a9.chunk.js.map": "/portfolio/static/js/487.bbe099a9.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/portfolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.eb82a92c.css",
-    "static/js/main.288716a0.js"
+    "static/js/main.52a4738b.js"
   ]
 }
